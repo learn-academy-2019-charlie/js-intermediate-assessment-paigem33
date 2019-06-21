@@ -8,6 +8,8 @@
 
 2. Why would you use object destructuring?
 
+You would use object destructuring to save time when writing your code and for it to be more readable. Being able to type just a one word variable or method name instead of this.state.variableName over and over again makes it a valuable tool. 
+
 3. What is the difference between var, let, and const?
 
 const is how you would set a variable that you do not want to change.
@@ -24,11 +26,11 @@ A higher order function is a function that either returns a function or takes a 
 
 6. What is the difference between a class and an object?
 
-A class is a blue print for an object.
+A class is a blue print for an object, and an object is the relationship between data and behavior. 
 
 7. What did you learn during the group project this week? Please include any additional feedback you may have.
 
-In the group project, I learned that just because something might seem like a strange way to do something, it is not always a bad way to do it. For words with 'qu' not in the beginning, I suggested changing the 'qu' to a variable set to two other letters so we could ignore 'u' as a vowel but keep the indexes correct. It seemed like a crazy way to handle it and I almost didn't suggest it, but it actually ended up working pretty cleanly. 
+In the group project, I learned just how benifical working in pairs/mobs can be. Talking through problems is very helpful for me, and it is obviously a staple in that method of programming. I would not have been able to get to the end product in that amount of time working alone, if I had been able to get there at all. I certainly would not have learned as much, either. 
 
 
 ### HTML/CSS Review questions: First, try to answer each question on your own then Google the answer to further your knowledge.
@@ -37,17 +39,32 @@ In the group project, I learned that just because something might seem like a st
 
 To link a css file to your html page, you include a link tag in the head of your document with the file path to your css file. 
 
+Google: 
+Each page must include a reference to the external style sheet file inside the <link> element. The <link> element goes inside the <head> section:
+
 2. What is the difference between a div and a span?
 
 A div is a block level element, while a span is an inline element.
+
+Google:
+The difference between span and div is that a span element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph) whereas a div (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
 
 3. What is a CSS class? When should you use an id instead of a class?
 
 A css class is a hook you add onto an element in order to style it. An id is the same, but you can only use one id of the same name per page. If you want to reuse a hook on a page, you would use a class. 
 
+Google:
+The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+
 4. Name 4 semantic HTML tags.
 
 nav, article, section, aside
+
+Google:
+<article>
+<aside>
+<details>
+<figcaption>
 
 5. What are three options for creating responsive design?
 

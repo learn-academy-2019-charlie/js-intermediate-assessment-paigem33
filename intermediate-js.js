@@ -7,6 +7,7 @@ reverseArray = (arr) => {
 	return arr.reverse()
 }
 console.log(reverseArray(originalArray))
+//Done
 
 // 2. Given the object below, complete the console.log to find specific information:
 
@@ -22,12 +23,15 @@ var bicycle = {
 
 // Log the type of bicycle:
 console.log(bicycle.type)
+//Done
 
 // Log the bell:
 console.log(bicycle.gear[2])
+//Done
 
 // Log the PSI:
 console.log(bicycle.wheels.specs[2])
+//Done
 
 
 // 3. Write a function called letterCounter that logs the number of times the letter "l" appears in ourString.
@@ -45,6 +49,7 @@ countLetter = (str, letter) => {
 	return amount
 }
 console.log(countLetter(ourString, 'l'))
+//Done
 
 // 4. Write a function called getFib that returns the first 10 numbers of the Fibonacci sequence in an array. [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
@@ -63,3 +68,4 @@ function oddChecker(arr){
 	return newArr
 }
 console.log(oddChecker(fullArr))
+//Done
